@@ -10,5 +10,6 @@ Currently using my personal credentials.
 `
 * Activate virtualenv : `. venv/bin/activate`
 * Install dependencies : `pip install -r requirements.txt`
+* Add your Twilio Account ID and Authentication Token, as well as your Twilio number in [views.py](https://github.com/Parth-Vader/TwilioDjango/blob/master/twilapp/twilsms/views.py) file.
 * Run the app via : `python manage.py runserver`
 * Go to `127.0.0.1:8000/twilsms` to see the app.
